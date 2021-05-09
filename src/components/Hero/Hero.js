@@ -1,11 +1,12 @@
 import React from 'react';
-import './Hero.css';
+import { Title, Content } from './StyledComponents';
+
 const Hero = ({ title, children }) => {
   return (
     <div>
       <div>
-        <h1>{title}</h1>
-        {children}
+        <Title>{title}</Title>
+        <Content>{children}</Content>
       </div>
     </div>
   );

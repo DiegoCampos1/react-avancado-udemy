@@ -1,9 +1,9 @@
-import './App.css';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Hero title="lorem  ip klasjdklasjd" />
     </div>
   );
 }
