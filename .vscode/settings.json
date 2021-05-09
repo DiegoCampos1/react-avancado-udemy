@@ -1,5 +1,8 @@
 {
   "editor.formatOnSave": true,
   "javascript.preferences.quoteStyle": "single",
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+}
 }
